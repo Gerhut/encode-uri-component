@@ -1,0 +1,40 @@
+{
+  "name": "encode-uri-component",
+  "version": "0.0.0",
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "description": "Npx command line for encodeURIComponent.",
+  "main": "index.js",
+  "bin": "bin.js",
+  "files": [
+    "index.js",
+    "bin.js"
+  ],
+  "scripts": {
+    "pretest": "standard",
+    "test": "mocha",
+    "posttest": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/encode-uri-component.git"
+  },
+  "keywords": [
+    "encodeURIComponent",
+    "command",
+    "cli"
+  ],
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Gerhut/encode-uri-component/issues"
+  },
+  "homepage": "https://github.com/Gerhut/encode-uri-component#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0",
+    "should": "^13.2.3",
+    "standard": "^14.3.4"
+  }
+}
