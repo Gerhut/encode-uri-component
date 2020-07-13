@@ -1,6 +1,6 @@
 {
   "name": "encode-uri-component",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "George Cheng <Gerhut@GMail.com>",
   "description": "Npx command line for encodeURIComponent.",
   "main": "index.js",
